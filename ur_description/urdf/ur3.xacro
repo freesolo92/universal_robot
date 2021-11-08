@@ -19,4 +19,6 @@
   -->
   <xacro:include filename="$(find ur_description)/urdf/inc/ur3_macro.xacro"/>
   <xacro:ur3_robot prefix="" />
+  <xacro:include filename="$(find ur_workcell)/urdf/workcell.xacro"/>
+  <!-- <xacro:myworkcell prefix="" /> -->
 </robot>
